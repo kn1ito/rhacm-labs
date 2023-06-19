@@ -7,6 +7,6 @@ spec:
   clusterConditions:
     - type: ManagedClusterConditionAvailable
       status: "True"
-  clusterSelector:
-    matchLabels:
-      environment: dev
+  # clusterSelector:
+  #   matchLabels:
+  #     environment: dev
