@@ -3,6 +3,8 @@ kind: Deployment
 metadata:
   labels:
     app: etherpad
+    app.kubernetes.io/part-of: etherpad
+    app.openshift.io/runtime: nodejs
   name: etherpad
 spec:
   replicas: 1
